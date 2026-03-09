@@ -24,8 +24,8 @@ export const CocktailById = (params: {id?: string, cocktelin?: Cocktail, onSelec
                 <img src={cocktail?.strDrinkThumb!}></img>
                 <div className="characterDataContanier">
                      <h1 className="Nombre">{cocktail?.strDrink}</h1>
-                    <p> Categoria: {cocktail?.strCategory}</p>
-                    <p> Alcoholico: {cocktail?.strAlcoholic}</p>
+                    <p className="Categoria"> Categoria: {cocktail?.strCategory}</p>
+                    <p className="Alcoholic"> Alcoholico: {cocktail?.strAlcoholic}</p>
                    
                     <p>
                         <button className="botonVer" onClick={()=> router.push(`/cocktail/${cocktail.idDrink}`)} >Ver a {cocktail?.idDrink}</button>

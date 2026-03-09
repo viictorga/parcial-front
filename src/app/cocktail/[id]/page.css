@@ -13,7 +13,7 @@
 
 
 .containerDetalle h1 {
-  font-size: 28px;
+  font-size: 50px;
   margin-bottom: 20px;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* es el predeterminado mas bonito */
@@ -24,12 +24,14 @@
   max-width: 400px;
   margin: 20px 0;
   border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 6px #000000;
   transition: transform 0.2s;
 }
 
 .containerDetalle img:hover {
-  transform: scale(1.03);
+    box-shadow: 0 0 18px #f4faba;
+  transition: transform 0.2s;
+  transform: translateY(-3px);
 }
 
 .containerDetalle p {
@@ -44,7 +46,9 @@
 }
 
 .containerDetalle p:hover {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  box-shadow: 0 0 18px #f4faba;
+  transition: transform 0.2s;
+  transform: translateY(-3px);
 }
 
 .linkVideo {
@@ -58,7 +62,6 @@
   cursor: pointer;
   text-align: center;
 }
-
 .botoncito {
   background-color: white;
   color: #000000;
@@ -69,7 +72,8 @@
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
-  margin-top: 20px;
+  margin: 20px auto;
+  flex-shrink: 0;
 }
 
 

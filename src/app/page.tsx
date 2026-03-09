@@ -55,7 +55,7 @@ const Home =() =>{
       <div className='buscador'>
             
 
-        <label> Nombre: </label> <input type="text" value={inputName} onChange={(e) => {setInputName(e.target.value)} } onKeyDown={(e)=>{
+        <label className="nombre"> Nombre: </label> <input type="text" value={inputName} onChange={(e) => {setInputName(e.target.value)} } onKeyDown={(e)=>{
           
         }} />
       

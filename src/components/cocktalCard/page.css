@@ -54,6 +54,9 @@
 
  
 }
+.Alcoholic, .Categoria {
+    color: white
+}
 .Nombre{
   transition: all 0.3s ease;
   color: #FABADA;
