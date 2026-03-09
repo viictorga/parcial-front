@@ -1,0 +1,93 @@
+.characterContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+   
+   border-color: #FABADA;
+    flex-wrap: wrap;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.unPersonaje{
+  cursor: pointer;
+}
+
+.unPersonaje img{
+    
+  
+  width: 300px;
+ box-shadow: 0 0 25px #00ff88;
+  margin:10px;
+ 
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+.unPersonaje:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px #00ff88;
+  
+}
+.unPersonaje:hover img{
+  transform: scale(1.05);
+  
+}
+
+
+.unPersonaje{
+  display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+   border :solid  3px;
+   border-color: #FABADA;
+    flex-wrap: wrap;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color:#1d074e;
+  
+  border-radius: 18px;
+  transition: all 0.3s ease;
+
+
+ 
+}
+.Nombre{
+  transition: all 0.3s ease;
+  color: #00ff88;
+  text-shadow: 0 0 7px #00ff88;
+  font-size: 25px;
+}
+.unPersonaje:hover .Nombre{
+  text-shadow: 0 0 15px #00ff88;
+}
+
+
+.characterDataContanier{
+    display: flex;
+    
+    flex-direction: column;
+    gap: 15px;
+    padding: 8px 8px 8px 0px;
+}
+.botonVer{
+  background-color: transparent;
+  color: #00ff88;
+  border: 2px solid #00ff88;
+  border-radius: 25px;
+  width: 120px;
+  height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.botonVer:hover{
+  background-color: #00ff88;
+  color: #1d074e;
+  box-shadow: 0 0 20px #00ff88;
+  transform: translateY(-3px);
+}

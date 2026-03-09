@@ -1,3 +1,143 @@
-.contenderPrincipal{
-  
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-height: 100vh;
+
+  background: radial-gradient(
+    circle at center,
+    #192835 0%,
+    #0f1c26 60%,
+    #0b141c 100%
+  );
+}
+.tituloPrincipal{
+  margin-top: 60px;
+  margin-bottom: 30px;
+
+  font-size: 42px;
+  font-weight: bold;
+
+  color: #FABADA;
+  text-shadow: 0 0 25px rgba(250,186,218,0.6);
+
+  letter-spacing: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.characterContainer{
+  background-color: #192835;
+}
+.botonBorrarFiltros{
+  width: 120px;  
+  height: 35px;
+  margin: 10px;
+  background-color: #FABADA;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.botonBorrarFiltros:hover{
+   transform: translateY(-3px);
+  box-shadow: 0 0 15px #FABADA;
+}
+.botones > button{
+  width: 90px;  
+  height: 35px;
+  margin: 10px;
+  background-color: #FABADA;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.botones > button:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px #FABADA;
+}
+.paginaMenos,
+.paginaMas{
+  width: 50px !important;
+}
+
+.paginas{
+  margin: 10px 0px 22px 0px;
+  color:#FABADA;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mainContainer > label{
+
+margin: 10px 0px 22px 0px;
+  color:#FABADA;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display:flex;
+  justify-content: flex-start;
+}
+.botones{
+  width: 95%;
+  max-width: 1500px;
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+}
+
+
+.buscador{
+  width: 95%;
+  max-width: 1500px;
+
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+  padding: 25px;
+  margin-top: 30px;
+
+  background: linear-gradient(
+    135deg,
+    #143149,
+    #102738
+  );
+
+  border-radius: 25px;
+  border: 2px solid rgba(250,186,218,0.3);
+
+  box-shadow:
+    0 0 30px rgba(250,186,218,0.15);
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buscador input{
+  background-color: #192835;
+  border: 2px solid rgba(250,186,218,0.4);
+  border-radius: 12px;
+  padding: 8px 12px;
+  color: white;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.buscador input:focus{
+  border-color: #FABADA;
+  box-shadow: 0 0 12px rgba(250,186,218,0.6);
+}
+
+
+
+.botoncito{
+  background-color: #143149;
+  border-color: #143149;
+  width: 0px;
+  height: 0px;
 }
