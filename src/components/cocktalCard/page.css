@@ -18,16 +18,16 @@
     
   
   width: 300px;
- box-shadow: 0 0 25px #00ff88;
+ box-shadow: 0 0 25px #FABADA;
   margin:10px;
  
   border-radius: 12px;
   transition: all 0.3s ease;
 }
 .unPersonaje:hover{
-  transform: translateY(-6px);
-  box-shadow: 0 0 25px #00ff88;
   
+  box-shadow: 0 0 25px #FABADA;
+  transform: scale(1.02);
 }
 .unPersonaje:hover img{
   transform: scale(1.05);
@@ -49,19 +49,19 @@
   background-color:#1d074e;
   
   border-radius: 18px;
-  transition: all 0.3s ease;
+  
 
 
  
 }
 .Nombre{
   transition: all 0.3s ease;
-  color: #00ff88;
-  text-shadow: 0 0 7px #00ff88;
+  color: #FABADA;
+  text-shadow: 0 0 7px #FABADA;
   font-size: 25px;
 }
 .unPersonaje:hover .Nombre{
-  text-shadow: 0 0 15px #00ff88;
+  text-shadow: 0 0 15px #FABADA;
 }
 
 
@@ -74,8 +74,8 @@
 }
 .botonVer{
   background-color: transparent;
-  color: #00ff88;
-  border: 2px solid #00ff88;
+  color: #FABADA;
+  border: 2px solid #FABADA;
   border-radius: 25px;
   width: 120px;
   height: 40px;
@@ -86,8 +86,8 @@
 
 
 .botonVer:hover{
-  background-color: #00ff88;
+  background-color: #FABADA;
   color: #1d074e;
-  box-shadow: 0 0 20px #00ff88;
+  box-shadow: 0 0 20px #FABADA;
   transform: translateY(-3px);
 }

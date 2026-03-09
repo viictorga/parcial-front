@@ -12,25 +12,15 @@ import { useRouter } from "next/navigation";
 const Home =() =>{
   const [search,setSearch] = useState<string>("");
   const [inputName,setInputName] = useState<string>("")
-  const [inputEspecie,setInputEspecie] = useState<string>("")
-  const [inputEstado,setInputEstado] = useState<string>("")
-  const [inputGenero,setInputGenero] = useState<string>("")
   const [cocktails,setCharacters] = useState<Cocktail[]>([]);
-  const [pagina, setPagina] = useState<number>(1);
   const [loading, setLoading] = useState<boolean>(true);
   const [miError, setError] = useState<string>("");
-  const [totalResultados, setTotalResultados] = useState<number>(0);
   const router = useRouter();
 
 
       const borrarFiltros = () => {
       setInputName("");
-      setInputEspecie("");
-      setInputEstado("");
-      setInputGenero("");
-
       setSearch("");
-      setPagina(1);
       setCharacters([]);
     };
 
@@ -55,7 +45,7 @@ const Home =() =>{
         setLoading(false);
       })
 
-  }, [search, pagina])
+  }, [search])
 
  return (
     <div className='mainContainer'>

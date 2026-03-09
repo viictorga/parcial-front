@@ -39,8 +39,8 @@ const UnCocktail = () =>{
   
     <div className="containerDetalle">
 
-      {loading && <h1>Loading...</h1>}
-      {miError && <h2>{miError}</h2>}
+      {loading && <label>Loading...</label>}
+      {miError && <label>{miError}</label>}
 
       {cocktail && (
         <>
@@ -69,7 +69,7 @@ const UnCocktail = () =>{
           {cocktail.strVideo && <Link className="linkVideo" href = {cocktail.strVideo!}><p>Link al video</p> </Link>}
         </>
       )}
-      <button onClick={()=>router.back()}>Volver Atrás</button>
+      <button className= "botoncito"onClick={()=>router.back()}>Volver Atrás</button>
 
     </div>
   )

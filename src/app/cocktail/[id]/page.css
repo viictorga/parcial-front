@@ -10,9 +10,7 @@
 
 }
 
-.containerDetalle > * {
-  max-width: 800px;
-}
+
 
 .containerDetalle h1 {
   font-size: 28px;
@@ -61,17 +59,24 @@
   text-align: center;
 }
 
-button {
-  width: 90px;
-  height: 35px;
-  margin: 10px;
-  background-color: #ffffff;
-  border: 1px solid #868484;
-  border-radius: 5px;
+.botoncito {
+  background-color: white;
+  color: #000000;
+  border: 2px solid #FABADA;
+  border-radius: 25px;
+  width: 300px;
+  height: 40px;
+  font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: all 0.3s ease;
+  margin-top: 20px;
 }
 
-button:hover {
-  background-color: #ccc;
+
+.botoncito:hover{
+
+  background-color: #f4faba;
+  color: #1d074e;
+  box-shadow: 0 0 20px #f4faba;
+  transform: translateY(-3px);
 }
